@@ -2,8 +2,6 @@
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-rows: auto auto 1fr;
-  /* grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto 460px auto; */
   grid-template-areas:
     "title artist"
     "image paragraph"
