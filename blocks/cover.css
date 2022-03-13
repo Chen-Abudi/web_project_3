@@ -33,6 +33,7 @@
 
 .cover__overlay:hover::before {
   opacity: 0.8;
+  cursor: url(../images/vector1.png), pointer;
 }
 
 .cover__content {
