@@ -1,0 +1,31 @@
+.button {
+  grid-area: button;
+  border-radius: 4px;
+  background: #0278fe;
+  max-width: 248px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13px 20px;
+  transition: background-color 0.4s linear 0s;
+  margin: 0;
+  border: none;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: #0063d2;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
