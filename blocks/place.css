@@ -13,10 +13,6 @@
   gap: 48px 40px;
 }
 
-/* .place:last-of-type {
-  margin: 0 auto;
-} */
-
 .place__title {
   grid-area: title;
   max-width: 460px;
@@ -28,6 +24,7 @@
   color: #ffffff;
   display: flex;
   margin: 0;
+  padding: 26px 0 0 0;
 }
 
 .place__website {
@@ -48,6 +45,7 @@
   text-transform: uppercase;
   color: #aaaaaa;
   margin: 0;
+  padding-bottom: 8px;
 }
 
 .place__artist {
@@ -59,7 +57,6 @@
   line-height: 1.22;
   color: #ffffff;
   margin: 0;
-  padding-top: 8px;
 }
 
 .place__image {
