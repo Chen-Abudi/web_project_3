@@ -11,3 +11,16 @@
 .photo-grid__item {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, auto);
+    max-width: 720px;
+    margin: 0 24px;
+    padding: 0 0 89px 0;
+  }
+
+  .photo-grid__item {
+    max-height: 264px;
+  }
+}

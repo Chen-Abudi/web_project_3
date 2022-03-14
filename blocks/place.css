@@ -5,8 +5,7 @@
   grid-template-areas:
     "title artist"
     "image paragraph"
-    "button paragraph"
-    ". paragraph";
+    "button paragraph";
   padding-bottom: 80px;
   gap: 48px 40px;
 }
@@ -82,4 +81,40 @@
 
 .place__paragraph:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    /* grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); */
+    grid-template-columns: 340px 1fr;
+    column-gap: 28px;
+    padding-bottom: 73px;
+  }
+
+  .place:last-child {
+    padding-bottom: 80px;
+  }
+
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .place__website {
+    max-width: 316px;
+  }
+
+  .place__image {
+    max-height: 340px;
+  }
+
+  .place__description {
+    max-width: 352px;
+    font-size: 16px;
+  }
+
+  .place__paragraph {
+    max-width: 352px;
+  }
 }

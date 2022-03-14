@@ -1,8 +1,7 @@
 .intro {
   max-width: 785px;
   margin: 0 347px 0 148px;
-  padding-top: 92px;
-  padding-bottom: 118px;
+  padding: 92px 0 118px;
 }
 
 .intro__title {
@@ -47,4 +46,16 @@
   font-size: 16px;
   line-height: 1.63;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    padding: 88px 0 90px;
+    margin: 0 24px;
+  }
+
+  .intro__title {
+    max-width: 720px;
+  }
 }
