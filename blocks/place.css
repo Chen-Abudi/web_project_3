@@ -118,3 +118,31 @@
     max-width: 352px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place {
+    /* grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "paragraph"
+      "button";
+    column-gap: 16px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 16px;
+    padding-bottom: 50px;
+  }
+
+  .place:last-child {
+    padding-bottom: 64px;
+  }
+
+  .place__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+    padding-bottom: 30px;
+  }
+}

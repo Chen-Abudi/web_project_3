@@ -2,7 +2,7 @@
   max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 16px;
+  grid-gap: 16px;
   list-style-type: none;
   margin: 0 48px;
   padding: 0 0 92px 0;
@@ -10,6 +10,7 @@
 
 .photo-grid__item {
   width: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
@@ -22,5 +23,19 @@
 
   .photo-grid__item {
     max-height: 264px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    max-width: 288px;
+    margin: 0 16px;
+    padding: 0 0 62px 0;
+    grid-gap: 12px;
+  }
+
+  .photo-grid__item {
+    max-height: 216px;
   }
 }

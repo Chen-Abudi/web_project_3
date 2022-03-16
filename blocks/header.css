@@ -16,3 +16,15 @@
     margin: 0 249px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-top: 20px;
+    margin: 0 60px;
+  }
+
+  .header__logo {
+    max-width: 200px;
+    max-height: 51.85px;
+  }
+}
