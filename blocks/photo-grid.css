@@ -2,8 +2,7 @@
   max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-gap: 16px;
-  list-style-type: none;
+  gap: 16px;
   margin: 0 48px;
   padding: 0 0 92px 0;
 }
@@ -32,7 +31,7 @@
     max-width: 288px;
     margin: 0 16px;
     padding: 0 0 62px 0;
-    grid-gap: 12px;
+    gap: 12px;
   }
 
   .photo-grid__item {

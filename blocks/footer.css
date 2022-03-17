@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   max-width: 165px;
-  margin: 0 558px 0 557px;
+  margin: 0 auto;
+  /* margin: 0 558px 0 557px; */
 }
 
 .footer__copyright {
@@ -25,5 +26,17 @@
 
   .footer__copyright {
     padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 0 78px 0 77px;
+  }
+
+  .footer__copyright {
+    padding-top: 64px;
+    font-size: 14px;
+    line-height: 1;
   }
 }
