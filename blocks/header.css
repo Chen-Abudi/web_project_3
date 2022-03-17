@@ -11,13 +11,13 @@
   max-height: 70px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .header {
     margin: 0 249px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .header {
     padding-top: 20px;
     margin: 0 60px;

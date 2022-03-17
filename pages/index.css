@@ -17,3 +17,7 @@
 @import url("../blocks/cover.css");
 
 @import url("../blocks/footer.css");
+
+html {
+  scroll-behavior: smooth;
+}

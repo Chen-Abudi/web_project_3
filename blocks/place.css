@@ -21,6 +21,7 @@
   color: #ffffff;
   display: flex;
   margin: 0;
+  text-rendering: optimizeLegibility;
 }
 
 .place__website {
@@ -83,9 +84,8 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .place {
-    /* grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); */
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
     padding-bottom: 73px;
@@ -119,15 +119,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
   .place {
-    /* grid-template-areas:
-      "title"
-      "artist"
-      "image"
-      "paragraph"
-      "button";
-    column-gap: 16px; */
     display: flex;
     flex-direction: column;
     margin: 0;
