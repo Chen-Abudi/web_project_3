@@ -37,3 +37,5 @@ All the elements are designed to be displayed correctly on the popular screen si
 - Make web page more dynamic and interactive by implementing custom scripts.
 
 ## Deployed Project
+
+- [Link to the project on Github pages]()
