@@ -38,4 +38,4 @@ All the elements are designed to be displayed correctly on the popular screen si
 
 ## Deployed Project
 
-- [Link to the project on Github pages]()
+- [Link to the project on Github pages](https://chen-abudi.github.io/web_project_3/)
