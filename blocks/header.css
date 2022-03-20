@@ -11,13 +11,6 @@
   height: 70px;
 }
 
-@media screen and (max-width: 1032px) {
-  .header {
-    padding-top: 34px;
-    margin: 0 auto;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .header {
     margin: 0 249px;
@@ -38,12 +31,6 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    padding-top: 20px;
     margin: 0 60px;
-  }
-
-  .header__logo {
-    max-width: 200px;
-    height: 51.85px;
   }
 }

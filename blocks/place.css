@@ -33,7 +33,6 @@
 }
 
 .place__artist-title {
-  max-width: 50px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -103,9 +102,7 @@
 
 @media screen and (max-width: 960px) {
   .place {
-    grid-template-columns: 340px 1fr;
     column-gap: 28px;
-    padding-bottom: 73px;
   }
 
   .place:last-child {
@@ -161,14 +158,12 @@
 
   .place__description {
     font-size: 17px;
-    margin: 0 0 0 16px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding-bottom: 50px;
     gap: 0;

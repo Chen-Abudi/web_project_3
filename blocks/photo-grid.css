@@ -53,11 +53,9 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     max-width: 288px;
     margin: 0 16px;
     padding: 0 0 62px 0;
-    gap: 12px;
   }
 
   .photo-grid__item {
