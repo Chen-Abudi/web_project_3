@@ -41,6 +41,7 @@
     max-width: 340px;
     display: flex;
     justify-content: center;
+    margin: 0 auto;
   }
 }
 
